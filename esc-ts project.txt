@@ -1,0 +1,59 @@
+esc-ts project
+
+A typescript landing page - EVOGYM - Ed Roh
+
+Technologies
+
+Typescript
+Tailwind CSS - styling
+Tailwind heroicons
+React
+Vite - starter pack
+Framer Motion - Animation
+cloudflare pages - deployment
+
+Step 1. Install Vite with React as framework and TS as the variant
+npm create vite@latest 
+
+cd esc-ts
+npm install
+npm run dev
+
+Step 2. Install additional packages
+
+npm i framer-motion react-anchor-link-smooth-scroll@1.0.12 @heroicons/react
+
+Step 3. Install dev dependencies
+
+npm i -D @types/react-anchor-link-smooth-scroll@1.0.2 @types/node
+
+Step 4. Install Tailwind CSS with Vite
+
+https://tailwindcss.com/docs/guides/vite
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+Step 5. Update tailwind.config.js and index.css from the above site: https://tailwindcss.com/docs/guides/vite
+
+Step 6. Start the dev server to check
+
+npm run dev
+
+Step 7. install prettier dependencies
+
+npm i -D prettier prettier-plugin-tailwindcss
+
+Step 8. create file prettier.config.cjs in project root folder
+
+----------------------------------------------------------------
+
+Coding notes
+
+1. For specific component files - say Navbar (@/scenes/navbar - index.tsx)
+
+using ES7 - type tsrafce to generate the boilerplate component code
+
+rename index to the name of the component
+
+2. npm i react-hook-form
