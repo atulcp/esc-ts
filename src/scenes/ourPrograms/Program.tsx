@@ -1,6 +1,3 @@
-import { SelectedPage } from '@/shared/types'
-
-
 type Props = {
     name: string;
     description?: string;
